@@ -8,48 +8,52 @@
 </head>
 
 <body>
-    <nav>
-         <div>        
-            <ul>
-                <li>
-                    <a href="#Home">Home</a>
-                </li>
-                <li>
-                    <a href="#About Me">About</a>
-                </li>                
-                <!-- <li>
-                    <a href="https://github.com/Jovana667">Work</a>
-                </li> -->
-                <li>
-                    <a href="#Contact">Contact Me</a>
-                </li>
-            </ul>
+    <header>
+        <nav>
+          <a href="#">About</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+        </nav>
+        <div class="hero">
+          <h1>Hey <span>I'm Jovana.</span></h1>
+          <p>I'm a <span>Frontend Software Engineer</span> with a strong passion for building web applications with great user experiences.</p>
+          <p>Here's a bit more <a href="#">about me</a>.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
         </div>
-    </nav>
-<section>
-        <h1>Hey!</h1>
-        <h2>I'm Jovana</h2>
     </header>
-    <!-- <div class="hero" alt="XX"></div> -->
-</section>>
 <section>
     <main class="content">
-        <section id="About Me" class="main-styling">
-            <img src=".image1.jpg" alt="=modern architecture" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
+        <section id="About">
+            <img src="xx" alt="xx" class="float-left"/>
+            <h2>About</h2>
         </section>
-        <section id="online-reputation-management" class="main-styling">
-            <img src="./assets/images/online-reputation-management.jpg" alt="Reputation titled column graph on a laptop" class="float-right" />
-            <h2>Online Reputation Management</h2>
-            <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.</p>
+        <section id="Projects">
+            <img src="xx" alt="xx" class="float-right"/>
+            <h2>Projects</h2>
         </section>
-        <section id="social-media-marketing" class="main-styling">
-            <img src="./assets/images/social-media-marketing.jpg" alt="Group collaboration for social media marketting" class="float-left" />
-            <h2>Social Media Marketing</h2>
-            <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
-        </section>
-    <div class="row contact-info">
+        <section id="Contact">
+            <img src="xx" alt="xx" class="float-right"/>
+            <h2>Contact</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+              
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+              
+                <input type="submit" value="Send">
+              </form>    
+        <div class="row contact-info">
         <div class="Contact-info">
             <h5>My work</h5>
         </div>
@@ -61,7 +65,7 @@
             <h5>Call Me</h5>
             <p>(+61)416 133 440</p>
         </div>
-    </div>
+    </section>
     </main>
 </section>
     <footer class="footer">
