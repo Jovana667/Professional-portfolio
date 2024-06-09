@@ -148,20 +148,11 @@ p {
     .card {
       width: 50%;
     }
-    /* Change the header color */
-    header {
-      background: #772014;
-    }
-  }
-  
-  /* Cards are stacked on top of each other at 768px or smaller */
+} 
+
   @media screen and (max-width: 768px) {
     .card {
       width: 50%;
-    }
-    /* Change the header color */
-    header {
-      background: #8ac4ff;
     }
   }
   
