@@ -44,27 +44,30 @@
     <img src="" alt="" class="float-right">
     <h2>Projects</h2>
 </section>
-<section id="Contact" class="main-styling">
-    <form>
-        <label for="firstname">First name: </label>
-        <input type="text" name="firstname"  required>
+<section id="Contact" class="contact-form">
+    <form action="#" method="post">
+        <fieldset>
+        <label for="fullName">Your Name:</label>
+        <input type="text" name="fullName" id="fullName" required>
         <br>
-        <label for="lastname">Last name: </label>
-        <input type="text" name="lastname"  required>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" required>
         <br>
-        <label for="email">email: </label>
-        <input type="email" name="email"  required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"  required>
         <br>
-        <label for="password">password: </label>
-        <input type="password" name="password"  required>
+        <label for="Message">Message: </label>
+        <textarea name="msg" id="msg"></textarea>
         <br>
-        <input type="submit" value="Login!">
+        <input type="submit" id="submit"
+        value="Contact Me!">
+        </fieldset>
     </form>
 </section>
 </main>
     <footer class="footer">
             <div class="copyright">
-              <span style="color: #000000;">© Copyright Jovana Vukovic</span> 
+              <p>© Copyright Jovana Vukovic</p>
           </div>		                  
     </footer>
 </body>

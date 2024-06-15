@@ -81,8 +81,64 @@ body {
   margin-left: 25px;
 }
 
+/* .contact-form {
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+} */
+
+fieldset{
+margin: 2rem 0;
+padding: 1em 2em;
+border: solid 1px #333;
+border-radius: 6px;
+min-width: 200px;
+}
+
+legend {
+  font-size: 1.25em;
+  padding: 0 .25em;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.checks label {
+  margin-top: 0;
+}
+
+label:first-of-type {
+  margin-top: 0;
+}
+
+input[type="email"], input[type="text"] {
+  width: 15em;
+}
+
+textarea {
+  min-height: 8em;
+  min-width: 500px;
+  padding: 5em;
+  border: solid 1px #333;
+}
+
+input[type="submit"] {
+  padding: .5em 1em;
+  border-radius: 6px;
+  background-color: #333;
+  font-family: Arial, sans-serif;
+  font-size: .8em; 
+}
+
 .footer {
   height: 150px;
+  color: black;
   background-color: rgba(22, 22, 22, 0.781);
   padding: 30px;
   clear: both;
@@ -93,12 +149,25 @@ body {
 .footer h2 {
     font-size: 20px;
 }
-  
+
 @media screen and (max-width: 980px) {
+legend {
+  font-size: 1.75em;
+}
+fieldset {
+  width: 40%;
+  min-width: 320px;
+}
+.checks label {
+  display: inline-block;
+  padding-top: .5em;
+  margin-top: 0;
+  margin-right: .5em;
+}
 } 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .card {
       width: 50%;
     }
-  }
+  } */
