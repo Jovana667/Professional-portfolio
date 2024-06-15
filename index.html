@@ -8,11 +8,34 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+            <ul class="nav">
+                <li class="nav_link" onclick="toggleModal()">
+                  <a href="#" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--black
+                  ">About</a>
+                </li>
+                <li class="nav_link">
+                  <a href="#projects" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--black
+                  ">Projects</a>
+                </li>
+                <li class="nav_link" onclick="toggleModal()">
+                  <a href="#" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--black
+                  ">Contact</a>
+                </li>
+              </ul>
+          <!-- <a href="#About">About</a>
+          <a href="#Projects">Projects</a>
+          <a href="#Contact">Contact</a> -->
         </nav>
         <div class="hero">
           <h1>Hey <span>I'm Jovana.</span></h1>
