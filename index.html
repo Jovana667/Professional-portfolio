@@ -10,8 +10,8 @@
 
 <body>
   <header class="header">
-    <!-- want a profile pic in the top left -->
-    <div>
+    <div id="profilepic"> <img src="./assets/jovana.jpg" id="profile-image" alt="profile picture"> </div>
+    <div id="navigation">
      <nav>
         <ul>
           <li>
@@ -26,36 +26,37 @@
         </ul>
      </nav>
     </div>        
-    <div class="hero">
-          <h1>Hey</h1> <h1><span>I'm Jovana.</span></h1>
-          <p>I'm a <span>Web Developer</span> here to put your ideas into action.</p>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-          <a href="https://www.linkedin.com/in/jovana-vukovic-337592279/"target="_blank"><i class="fa fa-linkedin-in"></i></a> 
-          <a href="https://github.com/Jovana667" target="_blank"><i class="fa fa-github"></i></a>
-          <a href="./assets/Jovana Vukovic Resume.pdf"><i class="fa fa-file-pdf"></i></a>
-    </div>
-  </header>
-  <main class="content">
+</header>     
+<main class="content">
+  <div class="hero">
+    <h1>Hey</h1> <h1><span>I'm Jovana.</span></h1>
+    <p>I'm a <span>Web Developer</span> here to put your ideas into action.</p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <a href="https://www.linkedin.com/in/jovana-vukovic-337592279/"target="_blank"><i class="fa fa-linkedin-in"></i></a> 
+    <a href="https://github.com/Jovana667" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="./assets/Jovana Vukovic Resume.pdf"><i class="fa fa-file-pdf"></i></a>
+  </div>
   <section id="About" class="About-me-styling">
-    <h2>About me.</h2>
+    <section id="about-me-title"><h2>About Me</h2></section>
+    <section id="about-me-contents">        
         <p>Jovana Vukovic</p>
         <p>26th December 1998</p>
         <p>jovanavukovic4@hotmail.com</p>
         <p>My Skills</p>
         <p>HTML, CSS, Javascript</p>
-        <!-- add button for CV -->
         <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="./assets/Jovana Vukovic Resume.pdf" download="" role="button">Download CV</a>
+    </section>
   </section>
-  <section id="Projects" class="main-styling">
-    <!-- want these separated nicer -->
-    <div class="container">
-    <h2>Projects</h2>
-    <img src="./assets/project1.PNG" alt="first project">
-    <p>In this project I had to apply newly learned knowledge of html and css functions to create the expected and desired appearance.</p>
-    <img src="./assets/pro12.png" alt="second project"> 
-    <img src="./assets/pro2.png" alt="second project">
-    <p> In this project I was challenged to refractor the code to make it more accessible without disrupting the front-end appearance and user experience. </p>
+  <section id="Projects" class="project-styling">
+    <section id="project-title"><h2>Projects</h2></section>
+    <section id="project-contents">
+    <div id="contentpics"><img src="./assets/project1.PNG" id="content-img" alt="first project">
+    <div id="content-text"><p>In this project I had to apply newly learned knowledge of html and css functions to create the expected and desired appearance.</p>
     </div>
+    </div>
+    <div id="contentpics"><img src="./assets/pro12.png" id="content-img" alt="second project"></div> 
+    <p> In this project I was challenged to refractor the code to make it more accessible without disrupting the front-end appearance and user experience. </p>
+  </section>
   </section>
   </main>
   <section id="Contact" class="contact-form">
