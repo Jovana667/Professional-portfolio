@@ -91,6 +91,14 @@ body {
   width: auto;
 }
 
+.About-me-styling {
+height: 300px;
+display: inline-block;
+font-family: 'Roboto', sans-serif;
+background-color: whitesmoke;
+color: #333;
+}
+
 .main-styling {
   height: 800px;
   display: inline-block;
@@ -106,6 +114,7 @@ body {
 .main-styling p {
   font-size: 18px
 }
+
 
 .container {
   column-count: 2;
@@ -165,6 +174,7 @@ input[type="submit"] {
 
 .footer {
   height: 115px;
+  width: 100%;
   background-color: #333;
   padding: 50px;
   font-family: 'Roboto', sans-serif;
