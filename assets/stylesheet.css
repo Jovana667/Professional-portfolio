@@ -16,7 +16,7 @@
 }
 
 a {
-  color: red;
+  color: #f06449;
   text-decoration: none;
 }
 
@@ -33,10 +33,11 @@ a {
 h1 {
   font-size: 120px;
   margin-bottom: 20px;
+  color:#333
 }
   
 h1 span {
-  color: #ff6347;
+  color: #f06449;
 }
 
 header p {
@@ -48,7 +49,7 @@ header p {
 
 .fa {
   background-color: #f06449;
-  color: white;
+  color: whitesmoke;
   padding: 6px;
   width: 32px;
   height: 32px;
@@ -60,22 +61,17 @@ header p {
   border-radius: 50%;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
 section {
   height: auto;
   width: 100%;
 }
 
-ul {
+/* ul {
   font-size: 18px;
   margin-bottom: 10px;
   color: #333;
   font-family: 'Roboto', sans-serif;
-}
+} */
 
 .content {
   margin: auto;
@@ -90,7 +86,7 @@ p {
 }
 
 body {
-  background-color:white;
+  background-color:whitesmoke;
   height: fit-content;
   width: auto;
 }
@@ -99,8 +95,8 @@ body {
   height: 800px;
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+  background-color: whitesmoke;
+  color: #333;
 }
 
 .main-styling img {
@@ -128,17 +124,20 @@ padding: 1em 2em;
 border: solid 1px #333;
 border-radius: 6px;
 min-width: 200px;
+font-family: 'Roboto', sans-serif;
 }
 
 legend {
   font-size: 1.25em;
   padding: 0 .25em;
   color: #333;
+  font-family: 'Roboto', sans-serif;
 }
 
 label {
   display: block;
   margin-top: 1em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .checks label {
@@ -153,6 +152,7 @@ textarea {
   min-height: 8em;
   min-width: 20em;
   border: solid 1px #333;
+  font-family: 'Roboto', sans-serif;
 }
 
 input[type="submit"] {
