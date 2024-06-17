@@ -265,13 +265,11 @@ text-align: center;
 font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 1000px) {
 .hero {
   font-size: smaller;
-  width: 50%;
-  min-width: 320px;
+  width: 25%;
 }
- /* revisit how to colapse hero */
 
 legend {
   font-size: 1.75em;
