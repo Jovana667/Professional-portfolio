@@ -256,7 +256,7 @@ text-align: center;
 font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width: 980px) {
+@media (max-width: 980px) {
 legend {
   font-size: 1.75em;
 }
@@ -271,9 +271,3 @@ fieldset {
   margin-right: .5em;
 }
 } 
-
-/* @media screen and (max-width: 768px) {
-    .card {
-      width: 50%;
-    }
-  } */
