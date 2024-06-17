@@ -82,7 +82,7 @@ header p {
 
 .fa {
   background-color: #f06449;
-  color: whitesmoke;
+  color: white;
   padding: 8.5px;
   width: 32px;
   height: 32px;
@@ -113,7 +113,7 @@ p {
 }
 
 body {
-  background-color:whitesmoke;
+  background-color:white;
   height: fit-content;
   width: auto;
 }
@@ -123,7 +123,7 @@ height: 300px;
 padding-top: 100px;
 display: flex;
 font-family: 'Roboto', sans-serif;
-background-color: whitesmoke;
+background-color: white;
 color: #333;
 }
 
@@ -144,7 +144,7 @@ height: 600px;
 padding-top: 100px;
 display: flex;
 font-family: 'Roboto', sans-serif;
-background-color: whitesmoke;
+background-color: white;
 color: #333;  
 }
 
