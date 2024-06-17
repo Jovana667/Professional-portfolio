@@ -7,9 +7,13 @@ In this challenge I have applied my newly learned knowledge of flexbox, media qu
 
 ## Screenshots 
 
+![challenge](https://github.com/Jovana667/challenge-2/assets/114545493/7bd9ed1c-326f-4bd4-a2e2-d82e40400b87)
+![challenge1](https://github.com/Jovana667/challenge-2/assets/114545493/563257f8-d147-4eff-97fb-a753f830c06e)
+![challenge3](https://github.com/Jovana667/challenge-2/assets/114545493/7d752a0d-aa6b-4aca-b604-87e5a80eacaf)
 
 ## Deployed Application
 
+https://jovana667.github.io/challenge-2/
 
 ## Credits
 
