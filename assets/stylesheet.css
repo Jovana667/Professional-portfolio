@@ -129,7 +129,7 @@ color: #333;
 
 #about-me-title {
 flex: 30%;
-border-right: 3px solid #f06449;
+border-right: 3px solid black;
 margin: 25px;
 padding: 10px;
 }
@@ -150,7 +150,7 @@ color: #333;
 
 #project-title {
 flex: 30%;
-border-right: 3px solid #f06449;
+border-right: 3px solid black;
 margin: 25px;
 padding: 10px;
 }
@@ -167,6 +167,11 @@ font-size: 18px
 height: 150px;
 width: 300px;
 margin-top: 25px;
+outline: 3px solid black;
+}
+
+img#content-img:hover {
+outline: 3px solid #f06449;
 }
 
 .contact-form {
